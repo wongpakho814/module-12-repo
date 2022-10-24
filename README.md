@@ -1,38 +1,36 @@
-# 📖 Execute a SQL File Using MySQL Shell
+# 📖 Use MySQL Statements to Delete, Create, and Select a Database
 
 Work with a partner to implement the following user story:
 
-* As developer, I want to execute MySQL statements from a file using the command-line interface.
+* As a developer, I want to delete an existing database.
+
+* As a developer, I want to create a new database and select that database for use.
 
 ## Acceptance Criteria
 
-* It's done when the `schema.sql` file is executed using the command-line interface and a message reading `Query OK` is returned.
+* It's done when `sample_db` is dropped and longer appears on the list of all databases.
+
+* It's done when a new `books_db` database is created and selected for use.
 
 ## 📝 Notes
 
 Refer to the documentation:
 
-[MySQL documentation on installing and starting MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
+[MySQL documentation on creating and selecting a database](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html)
 
-[MySQL documentation on executing SQL statements from a text file](https://dev.mysql.com/doc/refman/8.0/en/mysql-batch-commands.html)
-
-## Assets
-
-The following image demonstrates the web application's appearance and functionality:
-
-![The file execution output indicates "Query OK", along with the number of rows affected.](./assets/image_1.png)
+[MySQL documentation on DROP DATABASE](https://dev.mysql.com/doc/refman/8.0/en/drop-database.html)
 
 ---
 
 ## 💡 Hints
 
-Which commands do you use to start MySQL in the command line?
+Which statement can we use to show all databases?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What kind of database is MySQL?
+* SQL is a **relational database management system**, or **RDBMS**. What are the characteristics of an RDBMS? What other database systems fall into the category of RDBMS?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

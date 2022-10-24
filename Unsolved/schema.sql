@@ -1,4 +1,6 @@
--- Drops the sample_db if it exists currently --
+-- Write code here or enter directly in MySQL shell --
 DROP DATABASE IF EXISTS sample_db;
--- Creates the sample_db database --
-CREATE DATABASE sample_db;
+CREATE DATABASE books_db;
+
+USE books_db;
+SELECT DATABASE(); 
