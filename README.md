@@ -1,36 +1,32 @@
-# 📖 Use MySQL Statements to Delete, Create, and Select a Database
+# 🏗️ Add Table to Database
 
 Work with a partner to implement the following user story:
 
-* As a developer, I want to delete an existing database.
-
-* As a developer, I want to create a new database and select that database for use.
+* As a developer, I want to delete a table from an existing database and replace it with a new table.
 
 ## Acceptance Criteria
 
-* It's done when `sample_db` is dropped and longer appears on the list of all databases.
+* It's done when a new table `biographies` has been created and includes two columns `id` and `name`.
 
-* It's done when a new `books_db` database is created and selected for use.
+* It's done when the `id` column has a data type of `INT` and the `name` column has a data type of `VARCHAR(100)`.
 
-## 📝 Notes
+## Assets
 
-Refer to the documentation:
+The following image demonstrates the web application's appearance and functionality:
 
-[MySQL documentation on creating and selecting a database](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html)
-
-[MySQL documentation on DROP DATABASE](https://dev.mysql.com/doc/refman/8.0/en/drop-database.html)
+![A table called "biographies" contains fields for "id" and "name".](./assets/image_1.png)
 
 ---
 
 ## 💡 Hints
 
-Which statement can we use to show all databases?
+How can you display a list of existing tables in a database?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* SQL is a **relational database management system**, or **RDBMS**. What are the characteristics of an RDBMS? What other database systems fall into the category of RDBMS?
+* What is the difference between a table and a database?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
