@@ -1,32 +1,22 @@
-# 🏗️ Add Table to Database
+# 📐 Add Comments to Implementation of Selecting and Inserting Data Using MySQL
 
-Work with a partner to implement the following user story:
+Work with a partner to add comments describing the functionality of the code found in [insert-select.sql](./Unsolved/db/insert-select.sql).
 
-* As a developer, I want to delete a table from an existing database and replace it with a new table.
+## 📝 Notes
 
-## Acceptance Criteria
+Refer to the documentation:
 
-* It's done when a new table `biographies` has been created and includes two columns `id` and `name`.
+[MySQL documentation on SELECT](https://dev.mysql.com/doc/refman/8.0/en/select.html)
 
-* It's done when the `id` column has a data type of `INT` and the `name` column has a data type of `VARCHAR(100)`.
-
-## Assets
-
-The following image demonstrates the web application's appearance and functionality:
-
-![A table called "biographies" contains fields for "id" and "name".](./assets/image_1.png)
+[MySQL documentation on INSERT](https://dev.mysql.com/doc/refman/8.0/en/insert.html)
 
 ---
-
-## 💡 Hints
-
-How can you display a list of existing tables in a database?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What is the difference between a table and a database?
+* Which operations can you perform on data using MySQL?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
